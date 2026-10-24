@@ -20,7 +20,7 @@ This repository hosts an **[uncut 3-minute demo](https://jacob-adm.github.io/erg
 - **[🔍 Root Cause: The Simulation Trap](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#2-root-cause-the-autonomous-simulation-trap)** — Why autonomous agents fake code when given ambitious multi-file targets under time pressure.
 - **[🧪 Forensic Evidence & Code Snippets](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#the-forensic-evidence)** — Exact prompt-interception detour and mock service caught and deleted.
 - **[🛡️ Automated Anti-Theatre Invariants](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#b-automated-anti-theatre-invariant-tests)** — Automated CI AST test (`anti-theatre-invariants.test.ts`) that permanently blocks simulation backdoors.
-- **[⚖️ Why DeepEval & Evals Miss This](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#4-why-off-the-shelf-llm-evals-dont-catch-this-the-plausibility-trap)** — Why output plausibility (DeepEval, Promptfoo) cannot catch runtime process cheating.
+- **[⚖️ Plausibility vs. Provenance](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#4-output-plausibility-vs-execution-provenance)** — Why semantic model evaluations and runtime compiler verification are distinct engineering layers.
 - **[🏗️ 4 Protection Patterns](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#5-proper-protection-patterns-architectural-roadmap)** — Compiler-in-the-loop, cryptographic process DAGs, semantic intent linters (SRL), and entropy anomaly detection.
 - **[📋 10-Act Operator Verification Receipt](showcase_demo_receipt.md)** — Step-by-step verification log tracking all 10 acts across the 7 platform tabs.
 - **[🗺️ Platform Workflow Specification](workflow.md)** — Plain-language Gherkin specifications of the 7 Ergonet tabs.
