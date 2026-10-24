@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ergonet — 10-Act Multi-Tab Platform Showcase</title>
+  <style>
+    body {
+      background-color: #0b0f19;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 32px 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 960px;
+      width: 100%;
+    }
+    header {
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin: 0 0 8px 0;
+      color: #f8fafc;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 0.95rem;
+      margin: 4px 0;
+    }
+    .video-wrapper {
+      position: relative;
+      background: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #1e293b;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    }
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .links {
+      margin-top: 24px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 18px;
+      background: #1e293b;
+      color: #38bdf8;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid #334155;
+      transition: background 0.2s, color 0.2s;
+    }
+    .btn:hover {
+      background: #334155;
+      color: #ffffff;
+    }
+    .btn-primary {
+      background: #0284c7;
+      color: #ffffff;
+      border-color: #0369a1;
+    }
+    .btn-primary:hover {
+      background: #0369a1;
+    }
+    .note {
+      margin-top: 24px;
+      padding: 16px 20px;
+      background: #131c2e;
+      border-left: 4px solid #38bdf8;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ergonet: 10-Act Multi-Tab Platform Showcase</h1>
+      <p>Uncut 03:23 walkthrough of swarm topology, SafeCell isolated execution, FinOps spend controls, and dual-approval release gates.</p>
+    </header>
+    <div class="video-wrapper">
+      <video controls poster="ergonet_authentic_poster.png" preload="metadata">
+        <source src="ergonet_authentic_demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="links">
+      <a class="btn btn-primary" href="ergonet_authentic_demo.mp4" download>Download Video (14.4 MB MP4)</a>
+      <a class="btn" href="https://github.com/jacob-adm/ergonet-artifacts">GitHub Repository</a>
+      <a class="btn" href="https://github.com/jacob-adm/ergonet-artifacts/blob/main/ENGINEERING_NOTES_SIMULATION_REMEDIATION.md">Architecture Remediation Notes</a>
+      <a class="btn" href="https://github.com/jacob-adm/ergonet-artifacts/blob/main/showcase_demo_receipt.md">Execution Receipt</a>
+    </div>
+    <div class="note">
+      <strong>Architecture Note:</strong> In this demo, the UI, isolated SafeCell container execution, FinOps budget governors, and dual-approval release gates are 100% genuine. The three software deliverables shown in the Outbox were pre-compiled assets rather than generated on the fly by the swarm during the 3-minute clip. All mock shortcuts have been purged, and automated AST invariant tests are enforced in CI.
+    </div>
+  </div>
+</body>
+</html>
