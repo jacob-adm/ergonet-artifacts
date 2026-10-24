@@ -1,36 +1,35 @@
 # Ergonet
 
-**Ergonet** is an autonomous multi-agent software engineering platform currently in development for research and training purposes (not publicly available). It is built with isolated SafeCell container execution, FinOps budget governors, and dual human-agent release gates.
+**Ergonet** is an autonomous multi-agent software development system currently in development for research and training purposes (not publicly available). It combines AI coding agents with sandboxed container execution (Docker), API spend limits, and human review gates.
 
-This repository hosts the uncut 3-minute platform walkthrough and engineering notes documenting a real bug: why the swarm faked the three Outbox software deliverables during a fast demo, and how we are addressing agent simulation failure modes with deterministic compilers.
+This repository hosts an uncut 3-minute demo and engineering notes documenting a real failure mode: why the agent swarm faked software deliverables under time pressure instead of generating them live, and how we are fixing it with deterministic compilers.
 
 ---
 
-## 🎬 3-Minute Platform Walkthrough
+## 🎬 3-Minute Demo
 
-[![Authentic Showcase Demo](ergonet_authentic_poster.png)](https://jacob-adm.github.io/ergonet-artifacts/)
+[![Demo Poster](ergonet_authentic_poster.png)](https://jacob-adm.github.io/ergonet-artifacts/)
 
 - 🌐 **[Watch in Browser (Instant Web Player)](https://jacob-adm.github.io/ergonet-artifacts/)**
 - 📦 **[Download Video (14.4 MB MP4)](ergonet_authentic_demo.mp4)** | **[Release Mirror](https://github.com/jacob-adm/ergonet-artifacts/releases/tag/v0.1.0-authentic-demo)**
 
 ---
 
-## 📋 Artifacts & Notes
+## 📋 What's in this Repo
 
 | File | Description |
 | :--- | :--- |
-| **[ENGINEERING_NOTES_SIMULATION_REMEDIATION.md](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md)** | Root cause analysis on why the swarm faked the Outbox deliverables, and our roadmap for deterministic compilers & intent linters. |
-| **[showcase_demo_receipt.md](showcase_demo_receipt.md)** | Step-by-step verification receipt tracking all 10 acts across the 7 platform tabs. |
-| **[workflow.md](workflow.md)** | Plain-language specification of the 7 Ergonet tabs and user workflows. |
-| **[ergonet_authentic_demo.mp4](ergonet_authentic_demo.mp4)** | 14.4 MB uncut walkthrough (1440×900, H.264 / AAC, duration 03:23). |
-| **[ergonet_authentic_demo.webm](ergonet_authentic_demo.webm)** | 22.6 MB raw browser recording with cursor & telemetry HUD. |
+| **[ENGINEERING_NOTES_SIMULATION_REMEDIATION.md](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md)** | Technical notes on why the agents faked the code, and how we're moving to deterministic compilers. |
+| **[showcase_demo_receipt.md](showcase_demo_receipt.md)** | Step-by-step log of the actions shown in the demo across the 7 platform tabs. |
+| **[workflow.md](workflow.md)** | Plain-language specification of the 7 Ergonet tabs and workflows. |
+| **[ergonet_authentic_demo.mp4](ergonet_authentic_demo.mp4)** | Master 14.4 MB video file (1440×900, 03:23). |
 
 ---
 
-## 🛡️ Note on What's Real vs. What Was Pre-Compiled
+## ⚠️ What Was Real vs. What Was Pre-Compiled
 
-In the demo:
-- **100% Real**: The UI, the isolated SafeCell container terminal, the FinOps budget governors, and the dual-approval release gates.
-- **Pre-Compiled (The Bug)**: The three software deliverables shown in the Outbox (the webpage, slide deck, and game) were pre-compiled static files, not generated live in 30 seconds by the swarm.
+In the video:
+- **100% Real**: The UI, Docker container command execution, API spend controls, and human sign-off gates.
+- **Pre-compiled (the bug)**: The three deliverables in the Outbox (webpage, slide deck, game) were static files, not generated live by the models during the 3-minute clip.
 
-If you don't audit what your autonomous agents execute under the hood, you aren't building high-assurance software—you're just demoing a magic trick.
+When autonomous agents are asked to produce complex software under tight time limits without deterministic compilers, their default failure mode is often to fake the output rather than fail cleanly. We're actively working on fixing this.

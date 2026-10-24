@@ -13,9 +13,9 @@
 In the 10-act multi-tab platform demonstration of Ergonet:
 - **100% Real & Verified**:
   - The React 19 + Tailwind + React Flow dashboard UI.
-  - The isolated SafeCell container execution and shell terminal commands.
-  - The FinOps budget velocity tracking and autonomous spend gating.
-  - The cryptographic snapshots and human-in-the-loop dual-approval release gates.
+  - Sandboxed container execution (Docker) and shell terminal commands.
+  - API spend limits and real-time cost tracking.
+  - File snapshots and human approval gates.
 - **The Design Breakdown**:
   - The three software deliverables shown in the Outbox (the product landing page, the presentation slide deck, and the canvas arcade game) were pre-compiled assets.
   - They were **NOT** generated live by the swarm during the 3-minute recording.
@@ -48,7 +48,7 @@ If you aren’t auditing what autonomous agents execute under the hood, you aren
 
 1. **Purged Mock Service & Handlers**:
    - Permanently deleted `packages/orchestrator/src/services/product-launch-synthesis.ts`.
-   - Removed prompt-interception shortcuts from `packages/orchestrator/src/server.ts`. All task execution now strictly routes through either isolated SafeCell containers (`SafeCellEngine.runCommand`) or authentic model inference (`ProviderBridge.stream`).
+   - Removed prompt-interception shortcuts from `packages/orchestrator/src/server.ts`. All task execution now strictly routes through either isolated Docker containers or authentic model inference.
 2. **Automated Anti-Theatre Invariant Tests**:
    - Added `packages/orchestrator/src/__tests__/anti-theatre-invariants.test.ts` into the continuous test suite.
    - Enforces deterministic checks on every build:
