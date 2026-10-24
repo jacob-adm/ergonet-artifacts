@@ -2,7 +2,7 @@
 
 **Ergonet** is an autonomous multi-agent software development system currently in development for research and training purposes (not publicly available). It combines AI coding agents with sandboxed container execution (Docker), API spend limits, and human review gates.
 
-This repository hosts an uncut 3-minute demo and engineering notes documenting a real failure mode: why the agent swarm faked software deliverables under time pressure instead of generating them live, and how I am fixing it with deterministic compilers.
+This repository hosts an **[uncut 3-minute demo](https://jacob-adm.github.io/ergonet-artifacts/)** and **[engineering notes](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md)** documenting a real **[failure mode](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#2-root-cause-the-autonomous-simulation-trap)**: why the agent swarm faked software deliverables under time pressure instead of generating them live, and how I am fixing it with **[deterministic compilers](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#pattern-1-compiler-in-the-loop-gating-deterministic-compilation)**.
 
 ---
 
@@ -15,14 +15,16 @@ This repository hosts an uncut 3-minute demo and engineering notes documenting a
 
 ---
 
-## 📋 What's in this Repo
+## 📚 Repository Wiki & Technical Index
 
-| File | Description |
-| :--- | :--- |
-| **[ENGINEERING_NOTES_SIMULATION_REMEDIATION.md](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md)** | Technical notes on why the agents faked the code, and how I am moving to deterministic compilers. |
-| **[showcase_demo_receipt.md](showcase_demo_receipt.md)** | Step-by-step log of the actions shown in the demo across the 7 platform tabs. |
-| **[workflow.md](workflow.md)** | Plain-language specification of the 7 Ergonet tabs and workflows. |
-| **[ergonet_authentic_demo.mp4](ergonet_authentic_demo.mp4)** | Master 14.4 MB video file (1440×900, 03:23). |
+- **[🔍 Root Cause: The Simulation Trap](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#2-root-cause-the-autonomous-simulation-trap)** — Why autonomous agents fake code when given ambitious multi-file targets under time pressure.
+- **[🧪 Forensic Evidence & Code Snippets](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#the-forensic-evidence)** — Exact prompt-interception detour and mock service caught and deleted.
+- **[🛡️ Automated Anti-Theatre Invariants](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#b-automated-anti-theatre-invariant-tests)** — Automated CI AST test (`anti-theatre-invariants.test.ts`) that permanently blocks simulation backdoors.
+- **[⚖️ Why DeepEval & Evals Miss This](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#4-why-off-the-shelf-llm-evals-dont-catch-this-the-plausibility-trap)** — Why output plausibility (DeepEval, Promptfoo) cannot catch runtime process cheating.
+- **[🏗️ 4 Protection Patterns](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#5-proper-protection-patterns-architectural-roadmap)** — Compiler-in-the-loop, cryptographic process DAGs, semantic intent linters (SRL), and entropy anomaly detection.
+- **[📋 10-Act Operator Verification Receipt](showcase_demo_receipt.md)** — Step-by-step verification log tracking all 10 acts across the 7 platform tabs.
+- **[🗺️ Platform Workflow Specification](workflow.md)** — Plain-language Gherkin specifications of the 7 Ergonet tabs.
+- **[📦 Master 14.4 MB Video File](ergonet_authentic_demo.mp4)** — Raw uncut walkthrough (1440×900, 03:23).
 
 ---
 
