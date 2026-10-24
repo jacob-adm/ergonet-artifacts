@@ -19,12 +19,12 @@
 - **Then** the drawer displays real-time agent thought telemetry and model dispatch controls
   - **And** operator prompts are dispatched directly to the active swarm session
 
-### Tab 3: SafeCell Workbench (The Workbench)
+### Tab 3: Container Workbench (The Workbench)
 **User Story**: As an engineering operator, I want to browse workspace source files and execute isolated terminal commands so that I can verify code changes without host environment escape.
-- **Given** the operator navigates to the SafeCell Workbench tab
+- **Given** the operator navigates to the Workbench tab
 - **When** the operator inspects a source file in the tree and runs a command in the container terminal
 - **Then** the file content renders with syntax highlighting in the viewer
-  - **And** the terminal executes the command inside PathTrust hardware isolation
+  - **And** the terminal executes the command inside sandboxed container isolation
 
 ### Tab 4: Lineage Snapshots (The Safety Net)
 **User Story**: As an engineering operator, I want to capture a cryptographic pre-flight snapshot so that I can instantly restore working state if an agent run fails.
@@ -33,8 +33,8 @@
 - **Then** a two-phase atomic snapshot is recorded with a SHA-256 Merkle root
   - **And** the snapshot appears in the lineage ledger with one-click rollback availability
 
-### Tab 5: Enterprise FinOps (The Penny Counter)
-**User Story**: As a FinOps administrator, I want to monitor spend velocity and configure daily budget ceilings so that autonomous swarms cannot incur runaway token costs.
+### Tab 5: Spend Controls & Budget (The Penny Counter)
+**User Story**: As an engineering operator, I want to monitor spend velocity and configure daily budget ceilings so that autonomous swarms cannot incur runaway token costs.
 - **Given** the operator is on the FinOps Ledger tab
 - **When** the operator sets the daily budget ceiling to $50.00 and enables the fail-closed killswitch
 - **Then** real-time token spend velocity and cost projections update immediately
