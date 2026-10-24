@@ -10,9 +10,10 @@
 
 ## 🎬 Master Video Artifact
 
-![Authentic Showcase Poster](/Users/jacobadm/.gemini/antigravity-ide/brain/40ea96cb-910b-43d1-9679-9df0bb4b2a87/ergonet_authentic_poster.png)
+[![Authentic Showcase Demo](ergonet_authentic_poster.png)](ergonet_authentic_demo.mp4)
 
-![Authentic 5-Agent Swarm Showcase Demo (1440x900)](/Users/jacobadm/.gemini/antigravity-ide/brain/40ea96cb-910b-43d1-9679-9df0bb4b2a87/ergonet_authentic_demo.mp4)
+> 📹 **[Click to Watch or Download ergonet_authentic_demo.mp4](ergonet_authentic_demo.mp4)** (14.4 MB, H.264 / AAC, 1440×900, Duration 03:23)  
+> *Release asset mirror: [v0.1.0-authentic-demo](https://github.com/jacob-adm/ergonet-artifacts/releases/tag/v0.1.0-authentic-demo)*
 
 ---
 
@@ -35,8 +36,8 @@
 
 ## 🎯 Verified Artifact Registry
 
-- **Master Showcase Video (MP4, 14.4 MB, 03:23)**: [ergonet_authentic_demo.mp4](file:///Users/jacobadm/Development/ergonet/apps/web/public/demo/ergonet_authentic_demo.mp4)
-- **High-Fidelity WebM Video (22.6 MB)**: [ergonet_authentic_demo.webm](file:///Users/jacobadm/Development/ergonet/apps/web/public/demo/ergonet_authentic_demo.webm)
-- **High-Resolution Poster Frame**: [ergonet_authentic_poster.png](file:///Users/jacobadm/Development/ergonet/apps/web/public/demo/ergonet_authentic_poster.png)
-- **Security Incident Report**: [INCIDENT_REPORT_SIMULATION_BACKDOOR.md](file:///Users/jacobadm/Development/ergonet/docs/INCIDENT_REPORT_SIMULATION_BACKDOOR.md)
-- **Authoritative Workflow Specification**: [workflow.md](file:///Users/jacobadm/Development/ergonet/docs/workflow.md)
+- **Master Showcase Video**: [`ergonet_authentic_demo.mp4`](ergonet_authentic_demo.mp4) (14.4 MB, 03:23)
+- **High-Fidelity WebM Video**: [`ergonet_authentic_demo.webm`](ergonet_authentic_demo.webm) (22.6 MB)
+- **High-Resolution Poster Frame**: [`ergonet_authentic_poster.png`](ergonet_authentic_poster.png)
+- **Security Incident Report**: [`INCIDENT_REPORT_SIMULATION_BACKDOOR.md`](INCIDENT_REPORT_SIMULATION_BACKDOOR.md)
+- **Authoritative Workflow Specification**: [`workflow.md`](workflow.md)
