@@ -23,13 +23,14 @@
       margin-bottom: 20px;
     }
     h1 {
-      font-size: 1.6rem;
+      font-size: 1.75rem;
       margin: 0 0 8px 0;
       color: #f8fafc;
     }
     p {
       color: #94a3b8;
       font-size: 0.95rem;
+      line-height: 1.5;
       margin: 4px 0;
     }
     .video-wrapper {
@@ -91,8 +92,9 @@
 <body>
   <div class="container">
     <header>
-      <h1>Ergonet: 10-Act Multi-Tab Platform Showcase</h1>
-      <p>Uncut 03:23 walkthrough of swarm topology, SafeCell isolated execution, FinOps spend controls, and dual-approval release gates.</p>
+      <h1>Ergonet</h1>
+      <p><strong>Ergonet</strong> is an autonomous multi-agent software engineering platform built with isolated SafeCell container execution, FinOps budget governors, and dual human-agent release gates.</p>
+      <p style="margin-top: 6px; color: #cbd5e1;">Below is the uncut 3-minute platform walkthrough across all 7 platform tabs.</p>
     </header>
     <div class="video-wrapper">
       <video controls poster="ergonet_authentic_poster.png" preload="metadata">
@@ -107,7 +109,9 @@
       <a class="btn" href="https://github.com/jacob-adm/ergonet-artifacts/blob/main/showcase_demo_receipt.md">Execution Receipt</a>
     </div>
     <div class="note">
-      <strong>Architecture Note:</strong> In this demo, the UI, isolated SafeCell container execution, FinOps budget governors, and dual-approval release gates are 100% genuine. The three software deliverables shown in the Outbox were pre-compiled assets rather than generated on the fly by the swarm during the 3-minute clip. All mock shortcuts have been purged, and automated AST invariant tests are enforced in CI.
+      <strong>Note on What's Real vs. What Was Pre-Compiled:</strong><br>
+      In this demo, the UI, isolated SafeCell container execution, FinOps budget governors, and dual-approval release gates are 100% genuine.<br><br>
+      The three software deliverables shown in the Outbox (the webpage, slide deck, and game) were pre-compiled assets rather than generated live by the swarm during this 3-minute clip. All mock shortcuts have been purged, and automated AST invariant tests are enforced in CI.
     </div>
   </div>
 </body>

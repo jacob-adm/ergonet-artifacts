@@ -1,35 +1,36 @@
-# Ergonet Artifacts & Architecture Verification Archive
+# Ergonet
 
-> **Author**: Jacob Adm (`jacob-adm`)  
-> **Project**: [Ergonet Autonomous Agent Orchestration Platform](https://github.com/jacob-adm/ergonet-artifacts)  
-> **Topic**: 10-Act Platform Walkthrough & Simulation Trap Remediation Notes
+**Ergonet** is an autonomous multi-agent software engineering platform built with isolated SafeCell container execution, FinOps budget governors, and dual human-agent release gates.
 
----
-
-## 🎬 10-Act Multi-Tab Platform Showcase
-
-[![Authentic Showcase Demo](ergonet_authentic_poster.png)](ergonet_authentic_demo.mp4)
-
-> 📹 **[Watch or Download Master Video (14.4 MB MP4)](ergonet_authentic_demo.mp4)**  
-> 📦 **[Direct Download via Release v0.1.0-authentic-demo](https://github.com/jacob-adm/ergonet-artifacts/releases/tag/v0.1.0-authentic-demo)**
+This repository hosts the uncut 3-minute platform walkthrough and engineering notes documenting a real bug: why the swarm faked the three Outbox software deliverables during a fast demo, and how we are addressing agent simulation failure modes with deterministic compilers.
 
 ---
 
-## 📋 Archived Artifacts & Documentation
+## 🎬 3-Minute Platform Walkthrough
 
-| File | Type | Size | Description |
-| :--- | :--- | :--- | :--- |
-| [`ergonet_authentic_demo.mp4`](ergonet_authentic_demo.mp4) | Video (H.264/AAC, 1440×900) | 14.4 MB | Authentic 10-Act platform walkthrough across all 7 Ergonet tabs. |
-| [`ergonet_authentic_demo.webm`](ergonet_authentic_demo.webm) | Video (VP9 WebM, 1440×900) | ~22.6 MB | High-fidelity raw browser recording with virtual cursor and telemetry HUD. |
-| [`ergonet_authentic_poster.png`](ergonet_authentic_poster.png) | Image (PNG, 1440×900) | ~718 KB | Master video poster frame from live execution. |
-| [`ENGINEERING_NOTES_SIMULATION_REMEDIATION.md`](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md) | Architecture Notes | ~4 KB | Engineering analysis on autonomous simulation failure modes, mock remediation, and AST invariant tests. |
-| [`showcase_demo_receipt.md`](showcase_demo_receipt.md) | Execution Receipt | ~4 KB | Formal verification matrix for the 10-Act operator journey with dual-approval sign-off. |
-| [`workflow.md`](workflow.md) | Workflow Specification | ~4 KB | Authoritative 7-tab end-user workflow specification. |
+[![Authentic Showcase Demo](ergonet_authentic_poster.png)](https://jacob-adm.github.io/ergonet-artifacts/)
+
+- 🌐 **[Watch in Browser (Instant Web Player)](https://jacob-adm.github.io/ergonet-artifacts/)**
+- 📦 **[Download Video (14.4 MB MP4)](ergonet_authentic_demo.mp4)** | **[Release Mirror](https://github.com/jacob-adm/ergonet-artifacts/releases/tag/v0.1.0-authentic-demo)**
 
 ---
 
-## 🛡️ Governance & Integrity Note
+## 📋 Artifacts & Notes
 
-In this demonstration, the UI, isolated SafeCell container execution, FinOps budget velocity tracking, and dual-approval release gates are 100% genuine.
+| File | Description |
+| :--- | :--- |
+| **[ENGINEERING_NOTES_SIMULATION_REMEDIATION.md](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md)** | Root cause analysis on why the swarm faked the Outbox deliverables, and our roadmap for deterministic compilers & intent linters. |
+| **[showcase_demo_receipt.md](showcase_demo_receipt.md)** | Step-by-step verification receipt tracking all 10 acts across the 7 platform tabs. |
+| **[workflow.md](workflow.md)** | Plain-language specification of the 7 Ergonet tabs and user workflows. |
+| **[ergonet_authentic_demo.mp4](ergonet_authentic_demo.mp4)** | 14.4 MB uncut walkthrough (1440×900, H.264 / AAC, duration 03:23). |
+| **[ergonet_authentic_demo.webm](ergonet_authentic_demo.webm)** | 22.6 MB raw browser recording with cursor & telemetry HUD. |
 
-The three software deliverables shown in the Outbox (the webpage, slide deck, and game) were pre-compiled assets rather than generated on the fly during this 3-minute clip. All mock shortcuts have been purged, and continuous AST invariant tests are enforced in CI to ensure authentic execution boundaries.
+---
+
+## 🛡️ Note on What's Real vs. What Was Pre-Compiled
+
+In the demo:
+- **100% Real**: The UI, the isolated SafeCell container terminal, the FinOps budget governors, and the dual-approval release gates.
+- **Pre-Compiled (The Bug)**: The three software deliverables shown in the Outbox (the webpage, slide deck, and game) were pre-compiled static files, not generated live in 30 seconds by the swarm.
+
+If you don't audit what your autonomous agents execute under the hood, you aren't building high-assurance software—you're just demoing a magic trick.
