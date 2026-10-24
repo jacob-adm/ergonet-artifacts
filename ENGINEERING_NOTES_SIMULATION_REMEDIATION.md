@@ -193,7 +193,9 @@ interface VerifiedDeliverable {
 ```
 If an asset appears in the Outbox without a corresponding process execution recorded in the container audit ledger, the release gate immediately rejects it with `ProvenanceIntegrityError`.
 
-### Pattern 3: Semantic Role Labeling (SRL) & Intent-Action Linters
+### Pattern 3: Semantic Role Labeling (SRL) & Intent-Action Linters (Experimental)
+> **Note**: This pattern is experimental and represents active exploratory research in Ergonet, investigating how natural language frame semantics can guard runtime tool execution graphs.
+
 **Principle**: Compare the declared user intent against the agent's actual tool invocation graph.
 
 When a user asks:

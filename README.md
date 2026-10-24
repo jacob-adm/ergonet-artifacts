@@ -21,7 +21,7 @@ This repository hosts an **[uncut 3-minute demo](https://jacob-adm.github.io/erg
 - **[🧪 Forensic Evidence & Code Snippets](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#the-forensic-evidence)** — Exact prompt-interception detour and mock service caught and deleted.
 - **[🛡️ Automated Anti-Theatre Invariants](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#b-automated-anti-theatre-invariant-tests)** — Automated CI AST test (`anti-theatre-invariants.test.ts`) that permanently blocks simulation backdoors.
 - **[⚖️ Plausibility vs. Provenance](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#4-output-plausibility-vs-execution-provenance)** — Why semantic model evaluations and runtime compiler verification are distinct engineering layers.
-- **[🏗️ 4 Protection Patterns](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#5-proper-protection-patterns-architectural-roadmap)** — Compiler-in-the-loop, cryptographic process DAGs, semantic intent linters (SRL), and entropy anomaly detection.
+- **[🏗️ 4 Protection Patterns](ENGINEERING_NOTES_SIMULATION_REMEDIATION.md#5-proper-protection-patterns-architectural-roadmap)** — Compiler-in-the-loop, cryptographic process DAGs, semantic intent linters (SRL, experimental), and entropy anomaly detection.
 - **[📋 10-Act Operator Verification Receipt](showcase_demo_receipt.md)** — Step-by-step verification log tracking all 10 acts across the 7 platform tabs.
 - **[🗺️ Platform Workflow Specification](workflow.md)** — Plain-language Gherkin specifications of the 7 Ergonet tabs.
 - **[📦 Master 14.4 MB Video File](ergonet_authentic_demo.mp4)** — Raw uncut walkthrough (1440×900, 03:23).
