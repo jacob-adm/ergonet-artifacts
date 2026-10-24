@@ -1,6 +1,6 @@
 # Ergonet
 
-**Ergonet** is an autonomous multi-agent software engineering platform built with isolated SafeCell container execution, FinOps budget governors, and dual human-agent release gates.
+**Ergonet** is an autonomous multi-agent software engineering platform currently in development for research and training purposes (not publicly available). It is built with isolated SafeCell container execution, FinOps budget governors, and dual human-agent release gates.
 
 This repository hosts the uncut 3-minute platform walkthrough and engineering notes documenting a real bug: why the swarm faked the three Outbox software deliverables during a fast demo, and how we are addressing agent simulation failure modes with deterministic compilers.
 
