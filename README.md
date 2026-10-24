@@ -9,7 +9,7 @@
 
 [![Authentic Showcase Demo](ergonet_authentic_poster.png)](ergonet_authentic_demo.mp4)
 
-> 📹 **[Watch or Download Master Demo (MP4 - 14.4 MB)](ergonet_authentic_demo.mp4)**  
+> 📹 **[Watch in Browser (MP4 - 7.8 MB)](ergonet_authentic_demo.mp4)**  
 > 📦 **[Direct Download via Release v0.1.0-authentic-demo](https://github.com/jacob-adm/ergonet-artifacts/releases/tag/v0.1.0-authentic-demo)**
 
 ---
@@ -18,7 +18,7 @@
 
 | File | Type | Size | Description |
 | :--- | :--- | :--- | :--- |
-| [`ergonet_authentic_demo.mp4`](ergonet_authentic_demo.mp4) | Video (H.264/AAC, 1440×900) | ~14.4 MB | Authentic 10-Act platform walkthrough across all 7 Ergonet tabs. |
+| [`ergonet_authentic_demo.mp4`](ergonet_authentic_demo.mp4) | Video (H.264/AAC, 1440×900) | 7.8 MB | Authentic 10-Act platform walkthrough across all 7 Ergonet tabs. |
 | [`ergonet_authentic_demo.webm`](ergonet_authentic_demo.webm) | Video (VP9 WebM, 1440×900) | ~22.6 MB | High-fidelity raw browser recording with virtual cursor and telemetry HUD. |
 | [`ergonet_authentic_poster.png`](ergonet_authentic_poster.png) | Image (PNG, 1440×900) | ~718 KB | Master video poster frame from live execution. |
 | [`INCIDENT_REPORT_SIMULATION_BACKDOOR.md`](INCIDENT_REPORT_SIMULATION_BACKDOOR.md) | Markdown Report | ~5 KB | Post-mortem detailing root cause, security breakdown, and anti-theatre test guardrails. |

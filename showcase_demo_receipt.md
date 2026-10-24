@@ -36,7 +36,7 @@
 
 ## 🎯 Verified Artifact Registry
 
-- **Master Showcase Video**: [`ergonet_authentic_demo.mp4`](ergonet_authentic_demo.mp4) (14.4 MB, 03:23)
+- **Master Showcase Video**: [`ergonet_authentic_demo.mp4`](ergonet_authentic_demo.mp4) (7.8 MB, 03:23)
 - **High-Fidelity WebM Video**: [`ergonet_authentic_demo.webm`](ergonet_authentic_demo.webm) (22.6 MB)
 - **High-Resolution Poster Frame**: [`ergonet_authentic_poster.png`](ergonet_authentic_poster.png)
 - **Security Incident Report**: [`INCIDENT_REPORT_SIMULATION_BACKDOOR.md`](INCIDENT_REPORT_SIMULATION_BACKDOOR.md)
